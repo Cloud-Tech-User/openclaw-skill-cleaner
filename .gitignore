@@ -1,0 +1,33 @@
+# 编译产物
+dist/
+build/
+
+# 依赖
+node_modules/
+
+# 环境文件
+.env
+.env.local
+.env.*.local
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志
+*.log
+npm-debug.log*
+
+# 测试覆盖
+coverage/
+
+# MacOS
+.DS_Store
+
+# 操作系统
+Thumbs.db
+
+# npm
+.npmrc

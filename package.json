@@ -1,0 +1,48 @@
+{
+  "name": "openclaw-skill-cleaner",
+  "version": "1.0.0",
+  "description": "OpenClaw 技能自动清理器和优化器 - 自动化验证、清理、重置 OpenClaw 技能目录",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "openclaw-skill-cleaner": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "ts-node src/index.ts",
+    "test": "node --test dist/**/*.test.js"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "cleaner",
+    "optimizer",
+    "automation",
+    "ai-agent"
+  ],
+  "author": "OpenClaw Team <zk33PsRfCCEaKgqUxi6@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cloud-Tech-User/openclaw-skill-cleaner"
+  },
+  "homepage": "https://github.com/Cloud-Tech-User/openclaw-skill-cleaner#readme",
+  "bugs": {
+    "url": "https://github.com/Cloud-Tech-User/openclaw-skill-cleaner/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
